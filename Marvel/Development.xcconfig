@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  Marvel
+//
+//  Created by Naveed Shaikh on 31/08/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SIMPLE_SLASH =/
+server_url   = http:$(SIMPLE_SLASH)/gateway.marvel.com/v1/public/
+timestamp    = 1
