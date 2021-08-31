@@ -114,7 +114,7 @@ class MarvelAPI : ObservableObject{
         }.resume()
     }
     
-    
+    // Create image of the thumbnail dict with extension and size of image
     func characterImage(characterDetails: Dictionary<String, String>, size:String) -> String {
        var imgURL = ""
          

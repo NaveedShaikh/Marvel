@@ -31,17 +31,8 @@ struct ComicsDetail: View {
                     //3
                     Text(name)
                         .font(.subheadline)
-//            VStack {
-//                    Text(String(id))
-//                        .font(.title)
-//            }
-//            List(self.creatorsListDisplay) { marvelData in
-//                VStack{
-//                    Text(marvelData.name);
-//                }
-//            }
-            
-            List {
+
+                List {
                         Section(header: ListHeader()) {
                             ForEach(self.creatorsListDisplay) { marvelData in
                                 VStack{

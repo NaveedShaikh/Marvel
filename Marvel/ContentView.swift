@@ -17,8 +17,6 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-        Image("IronMan").resizable().edgesIgnoringSafeArea(.all)
-
             NavigationView {
                 List(self.root) { marvelData in
                     CharacterCell(marvelData: marvelData)
